@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+    int length;
+    printf("nhap so luong phan tu trong mang: ");
+    scanf("%d", &length);
+    if(length<0) {
+        printf("so luong phan tu khong duoc am");
+        return 0;
+    } else if (length==0) {
+        printf("so luong phan tu phai lon hon 0");
+        return 0;
+    }
+    int *arr = malloc((sizeof(int)) * length);
+    int max = arr[0];
+    for (int i=0; i<length; i++) {
+        printf("nhap phan tu thu %d: ", i+1);
+        scanf("%d", &arr[i]);
+        if (arr[i]>max) {
+            max = arr[i];
+        }
+    }
+    printf("max = %d", max);
+    free(arr);
+}
