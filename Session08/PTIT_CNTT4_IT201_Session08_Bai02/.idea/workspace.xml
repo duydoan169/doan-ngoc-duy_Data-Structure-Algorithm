@@ -19,7 +19,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="PTIT_CNTT4_IT201_Session07_Bai04" targetName="PTIT_CNTT4_IT201_Session07_Bai04" />
+      <config projectName="PTIT_CNTT4_IT201_Session08_Bai02" targetName="PTIT_CNTT4_IT201_Session08_Bai02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -28,9 +28,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2ad2535-0330-42c7-89d8-3257709ac8dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTIT_CNTT4_IT201_Session07_Bai05/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTIT_CNTT4_IT201_Session07_Bai05/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="f340c403-0cb2-426c-9a29-58c953137479" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Session07/PTIT_CNTT4_IT201_Session07_Bai04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Session07/PTIT_CNTT4_IT201_Session07_Bai04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Session07/PTIT_CNTT4_IT201_Session07_Bai05/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Session07/PTIT_CNTT4_IT201_Session07_Bai05/.idea/editor.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +51,16 @@
     <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2zDnMs5ckC7FSFKdfr86xtIKTY0" />
+  <component name="ProjectId" id="2zGLR8uga4QDv4IOqgIYeSv4bde" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;CMake Application.PTIT_CNTT4_IT201_Session07_Bai04.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.PTIT_CNTT4_IT201_Session08_Bai02.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -80,7 +80,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="PTIT_CNTT4_IT201_Session07_Bai04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PTIT_CNTT4_IT201_Session07_Bai04" TARGET_NAME="PTIT_CNTT4_IT201_Session07_Bai04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PTIT_CNTT4_IT201_Session07_Bai04" RUN_TARGET_NAME="PTIT_CNTT4_IT201_Session07_Bai04">
+    <configuration name="PTIT_CNTT4_IT201_Session08_Bai02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PTIT_CNTT4_IT201_Session08_Bai02" TARGET_NAME="PTIT_CNTT4_IT201_Session08_Bai02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PTIT_CNTT4_IT201_Session08_Bai02" RUN_TARGET_NAME="PTIT_CNTT4_IT201_Session08_Bai02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,14 +93,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2ad2535-0330-42c7-89d8-3257709ac8dd" name="Changes" comment="" />
-      <created>1751274466448</created>
+      <changelist id="f340c403-0cb2-426c-9a29-58c953137479" name="Changes" comment="" />
+      <created>1751352451742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751274466448</updated>
-      <workItem from="1751274468241" duration="3526000" />
-      <workItem from="1751351885365" duration="147000" />
-      <workItem from="1751353050986" duration="151000" />
+      <updated>1751352451742</updated>
+      <workItem from="1751352453179" duration="2430000" />
+      <workItem from="1751355968142" duration="3000" />
     </task>
     <servers />
   </component>
