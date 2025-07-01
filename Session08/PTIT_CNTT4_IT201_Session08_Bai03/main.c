@@ -27,3 +27,4 @@ int main(void) {
     }
     return 0;
 }
+//do phuc tap thoi gian: o(n^2)
