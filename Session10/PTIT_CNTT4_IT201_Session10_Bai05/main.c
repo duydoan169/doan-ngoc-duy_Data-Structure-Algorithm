@@ -29,38 +29,25 @@ int lengthList(node* head) {
     }
     return length;
 }
-node* delNodeS(node* head, int position) {
-    int length=lengthList(head);
-    if (head==NULL) {
-        printf("danh sach lien ket rong");
-        return head;
-    }
-    if (position>length || position<=0) {
-        printf("khong hop le");
-        return head;
-    }
-    if (position==1) {
-        node* current=head->next;
-        free(head);
-        return current;
-    } else if (position==length) {
-        node* current=head;
-        while (current->next->next!=NULL) {
+node* delNodeV(node* head, int delValue) {
+    node* current=head;
+    node* previous=NULL;
+    while (current!=NULL) {
+        if (current->data==delValue) {
+            node* freeNode=current;
+            if (previous==NULL) {
+                head=current->next;
+                current=head;
+            } else {
+                previous->next=current->next;
+                current=current->next;
+            }
+            free(freeNode);
+        }else {
+            previous=current;
             current=current->next;
         }
-        free(current->next);
-        current->next=NULL;
-        return head;
     }
-    node* current=head;
-    int index=0;
-    while (index+1!=position) {
-        current=current->next;
-        index++;
-    }
-    node* temp=current->next;
-    current->next=current->next->next;
-    free(temp);
     return head;
 }
 int main(void) {
@@ -69,10 +56,10 @@ int main(void) {
     head->next->next=createNode(3);
     head->next->next->next=createNode(2);
     head->next->next->next->next=createNode(1);
-    int position;
-    printf("nhap vi tri muon xoa: ");
-    scanf("%d", &position);
-    head=delNodeS(head, position);
+    int delValue;
+    printf("nhap gia tri muon xoa: ");
+    scanf("%d", &delValue);
+    head=delNodeV(head, delValue);
     printNode(head);
     return 0;
 }
