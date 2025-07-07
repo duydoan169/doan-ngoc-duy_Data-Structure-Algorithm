@@ -67,7 +67,7 @@ int main(void) {
     int value;
     printf("nhap gia tri muon xoa: ");
     scanf("%d", &value);
-    delNodeV(head, value);
+    head=delNodeV(head, value);
     printNode(head);
     return 0;
 }
