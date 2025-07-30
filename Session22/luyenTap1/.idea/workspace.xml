@@ -3,11 +3,6 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
-    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
-  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -18,9 +13,7 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated>
-      <config projectName="PTIT_CNTT4_IT201_Session22_Bai07" targetName="PTIT_CNTT4_IT201_Session22_Bai07" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -28,9 +21,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d56a8b-b472-47ca-84e0-9db99587e34a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bonus" beforeDir="false" afterPath="$PROJECT_DIR$/../../bonus" afterDir="false" />
+    <list default="true" id="639e2a07-1176-401e-9272-56b357d83a14" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PTIT_CNTT4_IT201_Session22_Bai07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTIT_CNTT4_IT201_Session22_Bai07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bonus" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +44,16 @@
     <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="30KUKt3qKYi47hnjlOikRpcvpNS" />
+  <component name="ProjectId" id="30M4Ck25stxin5vPIO36ykkU875" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;CMake Application.luyenTap1.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -75,27 +69,24 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="PTIT_CNTT4_IT201_Session22_Bai07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PTIT_CNTT4_IT201_Session22_Bai07" TARGET_NAME="PTIT_CNTT4_IT201_Session22_Bai07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PTIT_CNTT4_IT201_Session22_Bai07" RUN_TARGET_NAME="PTIT_CNTT4_IT201_Session22_Bai07">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92d56a8b-b472-47ca-84e0-9db99587e34a" name="Changes" comment="" />
-      <created>1753375696872</created>
+      <changelist id="639e2a07-1176-401e-9272-56b357d83a14" name="Changes" comment="" />
+      <created>1753423982595</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753375696872</updated>
-      <workItem from="1753375698271" duration="636000" />
-      <workItem from="1753423155489" duration="188000" />
-      <workItem from="1753423917665" duration="64000" />
+      <updated>1753423982595</updated>
+      <workItem from="1753423984450" duration="8414000" />
     </task>
     <servers />
   </component>
